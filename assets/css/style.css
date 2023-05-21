@@ -4,7 +4,13 @@
 *{
     list-style-type: none;
 }
-
+.naruto{
+    color: blue;
+}
+.naruto:hover{
+    text-decoration: underline;
+    transition: ease-out;
+}
 /*html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -15,11 +21,19 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer,*/
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     background-color: #434344;
     border: 2px solid white;
     margin: 0 -10px;
+    overflow:auto;
+    padding: 15px;
+    margin-top: -5px;
+    font-family: 'Wix Madefor Display', sans-serif;
 }
 li,a{
     color: rgb(226, 226, 226);
@@ -32,7 +46,7 @@ ul{
 }
 li{
     margin: 0 20px ;
-    font-size: 14px;
+    font-size: 11px;
 }
  hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
@@ -88,4 +102,104 @@ body {
         -webkit-transition: none !important;
         -ms-transition: none !important;
         transition: none !important;
+    }
+    .pikachu{
+        color: #434344;
+        text-decoration: underline;
+    }
+    .doraemon{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 30px;
+        line-height: 16px;
+    }
+    .pokemon{
+        color: #434344;
+        font-size: 12.5px;
+        border-bottom: 2px solid rgb(212, 208, 208);
+        padding-bottom: 20px;
+        font-family: 'Wix Madefor Display', sans-serif;
+    }
+    .foot{
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 390px;
+        margin-top: 25px;
+        font-family: 'Wix Madefor Display', sans-serif;
+    }
+    .richu{
+        display: block;
+        color: #434344;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    a:hover{
+        color: #ffffff;
+        transition: 0,3s ease-out;
+    }
+    #way{
+        padding-left: 483px;
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    .richu:hover{
+        text-decoration: underline;
+        color: #434344;
+    }
+    .blank:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    .big{
+        font-size: medium;
+    }
+    .shy{
+        padding-left: 483px;
+        margin-top: 10px;
+        font-family: 'Wix Madefor Display', sans-serif;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    p{
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-size: 12px;
+    }
+    img{
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    .blank{
+        color: blue;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .die{
+        border-bottom: 2px solid rgb(212, 208, 208);
+        width: 1000px;
+        margin-top: 10px;
+    }
+    #Privacy{
+        margin: 0 20px;
+        border-left: 10px;
+    }
+    #india{
+        margin-left: 200px;
+    }
+    .demon{
+        color: #434344;
+    }
+    .demon:hover{
+        color: #434344;
+        text-decoration: underline;
     }
